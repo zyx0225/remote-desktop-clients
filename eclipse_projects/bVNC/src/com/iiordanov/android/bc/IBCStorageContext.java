@@ -8,7 +8,7 @@ import android.content.Context;
 
 import java.io.File;
 
-import com.iiordanov.bVNC.MainConfiguration;
+import com.iiordanov.freeaSPICE.MainConfiguration;
 
 /**
  * Provides a way to access the directory on external storage as returned by

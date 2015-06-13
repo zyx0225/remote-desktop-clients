@@ -45,11 +45,11 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import com.iiordanov.bVNC.AbstractConnectionBean;
-import com.iiordanov.bVNC.RemoteCanvas;
-import com.iiordanov.bVNC.AbstractBitmapData;
-import com.iiordanov.bVNC.RfbConnectable;
-import com.iiordanov.bVNC.input.RemoteKeyboard;
+import com.iiordanov.freeaSPICE.AbstractBitmapData;
+import com.iiordanov.freeaSPICE.AbstractConnectionBean;
+import com.iiordanov.freeaSPICE.RemoteCanvas;
+import com.iiordanov.freeaSPICE.RfbConnectable;
+import com.iiordanov.freeaSPICE.input.RemoteKeyboard;
 import com.iiordanov.tigervnc.rdr.*;
 import com.iiordanov.tigervnc.rfb.*;
 import com.iiordanov.tigervnc.rfb.Exception;

@@ -18,7 +18,7 @@
 
 package com.iiordanov.tigervnc.rfb;
 
-import com.iiordanov.bVNC.RemoteCanvas;
+import com.iiordanov.freeaSPICE.RemoteCanvas;
 import com.iiordanov.tigervnc.rdr.*;
 
 public class CMsgReaderV3 extends CMsgReader {

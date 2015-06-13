@@ -6,7 +6,7 @@ package com.iiordanov.android.bc;
 
 import java.io.File;
 
-import com.iiordanov.bVNC.MainConfiguration;
+import com.iiordanov.freeaSPICE.MainConfiguration;
 
 import android.content.Context;
 

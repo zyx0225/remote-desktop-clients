@@ -37,12 +37,13 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
-import com.iiordanov.bVNC.Utils;
-import com.iiordanov.bVNC.RemoteCanvas;
-import com.iiordanov.bVNC.RemoteCanvasActivity;
-import com.iiordanov.bVNC.Constants;
-import com.iiordanov.bVNC.bVNC;
+import com.iiordanov.freeaSPICE.Constants;
+import com.iiordanov.freeaSPICE.RemoteCanvas;
+import com.iiordanov.freeaSPICE.RemoteCanvasActivity;
+import com.iiordanov.freeaSPICE.Utils;
+import com.iiordanov.freeaSPICE.bVNC;
 import com.iiordanov.tigervnc.rdr.*;
+
 import org.apache.commons.*;
 
 public class CSecurityTLS extends CSecurity {

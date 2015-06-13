@@ -20,7 +20,7 @@ package com.iiordanov.tigervnc.rfb;
 
 import java.util.*;
 
-import com.iiordanov.bVNC.RemoteCanvas;
+import com.iiordanov.freeaSPICE.RemoteCanvas;
 import com.iiordanov.tigervnc.rdr.*;
 
 abstract public class CConnection extends CMsgHandler {
