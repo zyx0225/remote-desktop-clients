@@ -97,7 +97,7 @@ public class IntroTextDialog extends Dialog {
         setContentView(R.layout.intro_dialog);
         getWindow().setLayout(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
         
-        StringBuilder sb = new StringBuilder(getContext().getResources().getString(R.string.intro_title));
+        StringBuilder sb = new StringBuilder(getContext().getResources().getString(R.string.spice_intro_title));
         setTitle(sb);
         sb.delete(0, sb.length());
         if (pkgName.contains("SPICE")) {
@@ -134,7 +134,7 @@ public class IntroTextDialog extends Dialog {
         }
         
         sb.append(getContext().getResources().getString(R.string.intro_header));
-        sb.append(getContext().getResources().getString(R.string.intro_text));
+        sb.append(getContext().getResources().getString(R.string.spice_intro_text));
         sb.append("\n");
         sb.append(getContext().getResources().getString(R.string.intro_version_text));
         TextView introTextView = (TextView)findViewById(R.id.textIntroText);

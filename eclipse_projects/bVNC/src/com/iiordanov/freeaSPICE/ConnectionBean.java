@@ -465,6 +465,24 @@ public class ConnectionBean extends AbstractConnectionBean implements Comparable
     	
     	// we do not currently use API keys
     	
+    	
+    	//TlsPort,CaCertPath,CertSubject
+    	String tlsPortParam = dataUri.getQueryParameter(Constants.PARAM_TLS_PORT);
+    	if (tlsPortParam != null) {
+    		int tlsPort = Integer.parseInt(tlsPortParam);
+    	    setTlsPort(tlsPort);
+    	}
+    	
+    	String caCertPath = dataUri.getQueryParameter(Constants.PARAM_CA_CERT_PATH);
+    	if (caCertPath != null){
+    		setCaCertPath(caCertPath);
+    	}
+    	
+    	String certSubject = dataUri.getQueryParameter(Constants.PARAM_CERT_SUBJECT);
+    	if (certSubject != null){
+    		setCertSubject(certSubject);
+    	}
+    	
     	// check if we need to show data-entry screen
     	// it may be possible to prompt for data later
     	m_isReadyForConnection = true;
